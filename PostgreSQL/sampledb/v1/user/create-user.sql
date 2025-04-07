@@ -1,5 +1,0 @@
-DROP USER IF EXISTS dms_user;
-CREATE USER dms_user WITH PASSWORD 'dms_user';
-GRANT ALL PRIVILEGES ON                  SCHEMA dms_sample TO dms_user;
-GRANT ALL PRIVILEGES ON ALL TABLES    IN SCHEMA dms_sample TO dms_user;
-GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA dms_sample TO dms_user;
